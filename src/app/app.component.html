@@ -1,0 +1,22 @@
+<div class="background-pic">
+  <form (submit)="RegisterClick(frmRegister.value)"  #frmRegister="ngForm">
+
+    <div>
+      <div>
+        <label for="">Enter Your name here</label>
+        <div>
+          <input type="text" placeholder="Enter name" ngModel name="Name" #Name="ngModel">
+        </div>
+    </div>
+    <div>
+      <label for="">Enter Password here</label>
+      <div>
+        <input type="password" placeholder="Enter Password" ngModel name="password">
+      </div>
+    </div>
+    <div>
+      <button type="submit" >Submit</button>
+    </div>
+    </div>
+   </form>
+</div>
